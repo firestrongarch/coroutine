@@ -1,4 +1,5 @@
 # file(GLOB_RECURSE srcs CONFIGURE_DEPENDS *.cpp)
 add_executable(await co_await.cpp)
 add_executable(await2 co_await2.cpp)
+add_executable(await3 co_await3.cpp)
 add_executable(sequence sequence_generator.cpp)
